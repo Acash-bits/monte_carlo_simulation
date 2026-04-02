@@ -11,7 +11,7 @@ for i in range(1):
     behind_gate[car] = 'car'
 
 # Taking the input from the user and opening the door with the gate
-choice = input("Choose the door from 1-3: ")
+choice = int(input("Choose the door from 1-3: "))
 print(f"You have chosen the gate number: {choice}")
 
 # Opening the door which has goat behind it
